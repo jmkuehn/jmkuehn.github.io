@@ -21,7 +21,7 @@ nav a.active{cursor: default;border-bottom: 1px solid;}
 nav a:hover{border-bottom: 1px solid;}
 
 /********Home******/
-
+.center{text-align:center;}
 .social{font-size:3em;}
 
 /********Portfolio******/
@@ -44,12 +44,31 @@ nav a:hover{border-bottom: 1px solid;}
   font-size: 23pt;
   padding-left: 1em;
 }
-.page {padding:0 20%}
-.center{
-  text-align:center;
-  position: relative;
-  top: 40%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.page{padding:0 20%}
+
+/* Improvements for smaller screens */
+
+@media screen and (min-width: 360px) {
+  .center{
+    position: relative;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
+@media screen and (max-width: 800px) { 
+  .page{padding:0 10%}
+}
+@media screen and (max-width: 400px) {
+  nav ul{padding-left:0;}
+}
+@media screen and (max-width: 360px) {
+  nav li{
+    float:none;
+    width:inherit;
+    border-bottom: 1px solid;
+  }
+  .page{padding:1em;}
+}
+
