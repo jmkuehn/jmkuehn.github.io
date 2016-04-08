@@ -1,0 +1,21 @@
+html {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #444;
+  height: 100%;
+  font-size:16px;
+}
+body{
+  margin: 0;
+  height: inherit;
+}
+h1{
+  font-weight:300;
+  font-size:64px;
+  margin: 0;
+}
+ul{list-style-type: circle;}
+p{font-size:16pt;}
+a{color: white;}
+strong{font-weight:500;}
