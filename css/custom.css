@@ -57,6 +57,12 @@ nav a:hover{border-bottom: 1px solid;}
     transform: translateY(-50%);
   }
 }
+@media screen and (max-width: 1100px) { 
+  .page{padding:0 20%}
+}
+@media screen and (max-width: 900px) { 
+  .page{padding:0 15%}
+}
 @media screen and (max-width: 800px) { 
   .page{padding:0 10%}
 }
