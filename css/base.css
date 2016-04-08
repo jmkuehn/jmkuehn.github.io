@@ -4,7 +4,7 @@ html {
   font-weight: 300;
   background-color: #444;
   height: 100%;
-  font-size:16px;
+  font-size:20px;
 }
 body{
   margin: 0;
@@ -16,6 +16,5 @@ h1{
   margin: 0;
 }
 ul{list-style-type: circle;}
-p{font-size:16pt;}
 a{color: white;}
 strong{font-weight:500;}
