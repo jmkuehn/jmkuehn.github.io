@@ -8,25 +8,13 @@
 <meta name="author" content="Josh Kuehn">
 <link rel="icon" href="images/favicon.png">
 <title>Into The Void</title>
-
 <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 </head>
-
-
 <body style="color:white; text-align:center;font-family:Roboto">
-<div style="padding:15%; font-size:50pt;cursor:default">Shout into the void<br/><i style="font-style:normal;font-size:16pt">or whisper. Nobody can hear you anyways</i></div>
-<div style="display:inline-flex">
-	<textarea style="font-family:roboto; background-color:#000; color:white;" name="message" rows="3" cols="120" autofocus></textarea>
-</div>
+<div style="padding:15% 0; font-size:50pt; cursor:default">Shout into the void<br/><i style="font-style:normal;font-size:16pt">or whisper. Nobody can hear you anyways</i></div>
+<textarea style="font-family:roboto; background-color:#000; color:white; width:75%; max-width:800px" name="message" rows="2" autofocus></textarea>
 </body>
 <script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type = "text/javascript">
-window.onkeyup = function(e) {
-   var key = e.keyCode ? e.keyCode : e.which;
-
-   if (key == 13) {
-       $("textarea").val('');
-   }
-}
+<script type = "text/javascript">window.onkeyup = function(e) {var key = e.keyCode ? e.keyCode : e.which;if (key == 13) {$("textarea").val('');}}
 </script>
 </html>
