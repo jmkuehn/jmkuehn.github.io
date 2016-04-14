@@ -21,13 +21,22 @@ nav a.active{cursor: default;border-bottom: 1px solid;}
 nav a:hover{border-bottom: 1px solid;}
 
 /********Home******/
-.center{text-align:center;}
+.center{
+  text-align:center;
+  display:flex;
+  align-items:center;
+  height: 80%;
+}
 .social{font-size:3em;}
 
 /********Portfolio******/
+.centered{
+  text-align:center;
+  margin:auto;
+}
 .logo{
   height: 10em;
-  margin:2em;
+  margin: 1em;
 }
 .project{
   font-weight:100;
@@ -37,27 +46,18 @@ nav a:hover{border-bottom: 1px solid;}
   text-decoration:none
 }
 
-/********Résumé******/
+/********RÃ©sumÃ©******/
 .section-title {
   border-bottom: 1px solid;
   font-weight: 500;
   font-size: 23pt;
   padding-left: 1em;
 }
-.page{padding:0 30%}
+.page{padding:0 25%}
 
 /* Improvements for smaller screens */
 
-@media screen and (min-width: 360px) {
-  .center{
-    position: relative;
-    top: 40%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-}
-@media screen and (max-width: 1100px) { 
+@media screen and (max-width: 1200px) { 
   .page{padding:0 20%}
 }
 @media screen and (max-width: 900px) { 
